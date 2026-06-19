@@ -1,0 +1,35 @@
+/* body {
+  background-color: indigo;
+  color: white;
+} */
+/* body {
+  background-color: white;
+  color: black;
+} */
+/* body {
+  background-color: yellow;
+  color: blue;
+} */
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  background-color: lightblue;
+  color: white;
+}
+h1 {
+  color: #333333;
+}
+p {
+  color: darkgray;
+}
+button {
+  background-color: green;
+  color: white;
+  border: none;
+}
+footer {
+  background-color: gray;
+  color: white;
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Steam - Estudo HTML</title>
+  </head>
+  <body>
+    <header class="menu_container">
+      <h1>STEAM</h1>
+      <nav class="menu_container_nav">
+        <a href="#">Loja</a> | <a href="#">Biblioteca</a> |
+        <a href="#">Comunidade</a> |
+        <a href="#">Suporte</a>
+      </nav>
+    </header>
+    <hr />
+    <main class="principal_container">
+      <div class="grid_container_destaque">
+        <section class="destaque_container">
+          <h2>Destaque da Semana</h2>
+          <article class="card_container">
+            <img
+              class="jogo_destaque"
+              src="./img/cbk.jpeg"
+              alt="Jogo em destaque"
+            />
+            <h3>Cyberpunk 2077</h3>
+            <p>
+              Explore uma cidade futurista cheia de mistérios, missões e
+              combates emocionantes.
+            </p>
+            <button>Comprar Agora</button>
+          </article>
+        </section>
+        <hr />
+      </div>
+      <div class="grid_container_jogos">
+        <section>
+          <h2>Jogos Populares</h2>
+          <div class="jogos">
+            <article class="card_jogos">
+              <img src="./img/space.jpg" alt="" />
+              <h3>Space Explorer</h3>
+              <p>Aventura espacial em mundo aberto.</p>
+            </article>
+            <article class="card_jogos">
+              <img src="./img/king.png" alt="" />
+              <h3>Kingdom Wars</h3>
+              <p>Estratégia medieval em tempo real.</p>
+            </article>
+            <article class="card_jogos">
+              <img src="./img/race.png" alt="" />
+              <h3>Racing Legends</h3>
+              <p>Corridas competitivas online.</p>
+            </article>
+          </div>
+        </section>
+        <hr />
+      </div>
+      <hr class="grid_container_coluna" />
+      <div class="grid_container_categorias">
+        <section class="categorias_container">
+          <h2>Categorias</h2>
+          <ul>
+            <li>Ação</li>
+            <li>RPG</li>
+            <li>Estratégia</li>
+            <li>Simulação</li>
+            <li>Indie</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <hr />
+    <footer>
+      <p>© 2026 Steam - Projeto para estudo de HTML.</p>
+    </footer>
+  </body>
+</html>

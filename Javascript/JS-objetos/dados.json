@@ -1,0 +1,56 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Espada longa",
+      "preco": 25.99,
+      "raridade": "Comum"
+    },
+    {
+      "id": 2,
+      "nome": "Cota de malha",
+      "preco": 249.99,
+      "raridade": "incomum"
+    },
+    {
+      "id": 3,
+      "nome": "Alabarda de osso dracônico",
+      "preco": 9959.99,
+      "raridade": "Raro"
+    },
+    {
+      "id": 4,
+      "nome": "Armadura de couro batido",
+      "preco": 149.99,
+      "raridade": "Comum"
+    },
+    {
+      "id": 5,
+      "nome": "Armadura de placas dracônicas",
+      "preco": 99949.99,
+      "raridade": "Lendário"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 101,
+      "nome": "Lopen",
+      "email": "lopen@example.com"
+    },
+    {
+      "id": 102,
+      "nome": "Jasnah",
+      "email": "jasnah@example.com"
+    },
+    {
+      "id": 103,
+      "nome": "Adolin",
+      "email": "adolin@example.com"
+    },
+    {
+      "id": 104,
+      "nome": "Shallan",
+      "email": "shallan@example.com"
+    }
+  ]
+}
